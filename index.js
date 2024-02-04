@@ -16,7 +16,7 @@ function randomHexColor() {
 }
 
 function randomRgbColorResult() {
-  return `rgb(${colorChangeHere.randomRgbColor().join()})`;
+  return `rgb(${randomRgbColor().join()})`;
 }
-
+console.log(randomRgbColorResult());
 module.exports = { randomHexColor, randomRgbColorResult };
